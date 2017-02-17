@@ -40,8 +40,6 @@ Below is an example use of this library.
            }
           },
          "services" : {
-           "generic-access" : ["device-name"],
-           "device-info" : ["manufacturer"],
            "environment" : ["humidity","temperature","uv"],
            "ambient-light" : ["ambient-light"]
         }
