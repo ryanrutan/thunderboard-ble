@@ -21,7 +21,7 @@ Below is an example use of this library.
 - **dataCallback** - Function to handle callbacks as defined by *readIntervals* in the **config**
 - **normalizeData** *(optional)*- [true|false (default)] Used to interpret the raw data values and convert them to clean measurement values.
 
-
+```javascript
     var config = {
         "000b5bbbaaaa" : {
          "uuid" : "000b5bbbaaaa",
@@ -56,6 +56,7 @@ Below is an example use of this library.
 
     var ThunderBoard = require('thunderboard-ble');
     var tb = new ThunderBoard(config,dataCallback,normalizeData);
+```
 
 # Service / Characterstic Names
 
