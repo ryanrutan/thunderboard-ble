@@ -1,0 +1,45 @@
+{
+  "name": "thunderboard-ble",
+  "version": "0.1.0",
+  "description": "A library to help reading/writing characteristic and service values with Silicon Labs Thunderboards using JSON configurations for quick and easy setup.",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "lib/specs/react",
+    "lib/specs/sense",
+    "lib/Thunderboard.js",
+    "lib/ThunderboardConstants.js",
+    "lib/ThunderboardMeta.js"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Thunderboard React",
+    "Thunderboard Sense",
+    "Thunderboard",
+    "Silicon Laboratories",
+    "Silicon Labs",
+    "Silabs",
+    "BLE",
+    "Bluetooth Low Energy",
+    "Bluetooth Smart",
+    "Bluetooth",
+    "BLE",
+    "IoT"
+  ],
+  "homepage": "https://github.com/ryanrutan",
+  "author": "Ryan Rutan <thunderboard-ble@ryanrutan.com> (https://github.com/ryanrutan)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanrutan/thunderboard-ble.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "noble": ">=1.6.0"
+  }
+}
