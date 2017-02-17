@@ -1,6 +1,6 @@
 {
   "name": "thunderboard-ble",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A library to help reading/writing characteristic and service values with Silicon Labs Thunderboards using JSON configurations for quick and easy setup.",
   "main": "index.js",
   "files": [
